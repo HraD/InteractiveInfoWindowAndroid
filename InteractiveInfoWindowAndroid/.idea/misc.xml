@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Projects/InteractiveInfoWindowAndroid/InteractiveInfoWindowAndroid/interactive-info-window/src/main/res/layout/fragment_map_infowindow.xml" value="0.20520833333333333" />
+        <entry key="..\:/Projects/InteractiveInfoWindowAndroid/InteractiveInfoWindowAndroid/sample/src/main/res/layout/activity_main.xml" value="0.20677083333333332" />
+        <entry key="..\:/Projects/InteractiveInfoWindowAndroid/InteractiveInfoWindowAndroid/sample/src/main/res/layout/activity_sample_with_map_fragment.xml" value="0.20677083333333332" />
+        <entry key="..\:/Projects/InteractiveInfoWindowAndroid/InteractiveInfoWindowAndroid/sample/src/main/res/layout/activity_sample_with_map_view.xml" value="0.20677083333333332" />
+        <entry key="..\:/Projects/InteractiveInfoWindowAndroid/InteractiveInfoWindowAndroid/sample/src/main/res/layout/info_window_form_fragment.xml" value="0.20677083333333332" />
+        <entry key="..\:/Projects/InteractiveInfoWindowAndroid/InteractiveInfoWindowAndroid/sample/src/main/res/layout/info_window_recyclerview_fragment.xml" value="0.20677083333333332" />
+        <entry key="..\:/Projects/InteractiveInfoWindowAndroid/InteractiveInfoWindowAndroid/sample/src/main/res/layout/list_item.xml" value="0.20677083333333332" />
       </map>
     </option>
   </component>

@@ -34,7 +34,7 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 30
-        versionCode 7
+        versionCode 9
         versionName LIB_VERSION
     }
     buildTypes {
@@ -59,11 +59,11 @@ dependencies {
 
 publish {
     userOrg = 'HraD'
-    groupId = 'com.appolica'
+    groupId = 'com.appolica.hrad'
     artifactId = 'interactive-info-window-v3'
     publishVersion = LIB_VERSION
     desc = 'InteractiveInfoWindowAndroid is (suprisingly :D) an Android library which gives you the opportunity to show interactive info windows on your google map. Now Maps v3'
-    website = 'https://github.com/HraD/InteractiveInfoWindowAndroidv3'
+    website = 'https://github.com/HraD/InteractiveInfoWindowAndroid'
     licences = ['Apache-2.0']
     repoName = 'appolica'
     uploadName = 'InfoWindow'
