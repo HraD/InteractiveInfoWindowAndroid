@@ -40,15 +40,16 @@ import com.appolica.interactiveinfowindow.animation.SimpleAnimationListener;
 import com.appolica.interactiveinfowindow.customview.DisallowInterceptLayout;
 import com.appolica.interactiveinfowindow.customview.TouchInterceptFrameLayout;
 import com.appolica.mapanimations.R;
-import com.google.android.gms.maps.CameraUpdate;
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.Projection;
-import com.google.android.gms.maps.model.LatLng;
+import com.google.android.libraries.maps.CameraUpdate;
+import com.google.android.libraries.maps.CameraUpdateFactory;
+import com.google.android.libraries.maps.GoogleMap;
+import com.google.android.libraries.maps.Projection;
+import com.google.android.libraries.maps.model.LatLng;
+
 
 /**
  * This is where all the magic happens. Use this class to show your interactive {@link InfoWindow}
- * above your {@link com.google.android.gms.maps.model.Marker}.
+ * above your {@link com.google.android.libraries.maps.model.Marker}.
  */
 public class InfoWindowManager
         implements GoogleMap.OnCameraIdleListener,
@@ -102,8 +103,8 @@ public class InfoWindowManager
      * and if you are calling it from an Activity you should call it in
      * {@link android.app.Activity#onCreate(Bundle)}.
      *
-     * @param parent             The parent of your {@link com.google.android.gms.maps.MapView} or
-     *                           {@link com.google.android.gms.maps.SupportMapFragment}.
+     * @param parent             The parent of your {@link com.google.android.libraries.maps.MapView} or
+     *                           {@link com.google.android.libraries.maps.SupportMapFragment}.
      * @param savedInstanceState The saved state Bundle from your Fragment/Activity.
      */
     public void onParentViewCreated(

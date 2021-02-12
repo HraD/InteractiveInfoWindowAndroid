@@ -17,8 +17,10 @@ package com.appolica.interactiveinfowindow;
 
 import androidx.fragment.app.Fragment;
 
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
+
+import com.google.android.libraries.maps.model.LatLng;
+import com.google.android.libraries.maps.model.Marker;
+import com.google.android.libraries.maps.GoogleMap;
 
 import java.io.Serializable;
 
@@ -49,7 +51,7 @@ public class InfoWindow {
     }
 
     /**
-     * @param position The {@link com.google.android.gms.maps.model.LatLng} which determines the window's position on the screen.
+     * @param position The {@link com.google.android.libraries.maps.model.LatLng} which determines the window's position on the screen.
      * @param markerSpec Provides the marker's offsetX and offsetY.
      * @param fragment The actual window that is displayed on the screen.
      */
